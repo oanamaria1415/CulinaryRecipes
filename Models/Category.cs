@@ -4,5 +4,9 @@
     {
         public int ID { get; set; }
         public string CategoryName { get; set; }
+
+        public ICollection<Recipe> Recipes { get; set; }
     }
+
+   
 }

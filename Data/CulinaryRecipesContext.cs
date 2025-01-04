@@ -14,6 +14,9 @@ namespace CulinaryRecipes.Data
         {
         }
 
+        public DbSet<Ingredient> Ingredients { get; set; }
+        public DbSet<Category> Categories { get; set; }
+
         public DbSet<CulinaryRecipes.Models.Recipe> Recipe { get; set; } = default!;
     }
 }

@@ -18,7 +18,7 @@ namespace Reteteculinare.Pages.Recipes
     {
         private readonly CulinaryRecipesContext _context;
 
-        public CreateModel(CulinaryRecipes context)
+        public CreateModel(CulinaryRecipesContext context)
         {
             _context = context;
         }
